@@ -30,7 +30,7 @@ Si la instal·lació ha sigut correcta, s'ha de poder veure la versió del compi
 $ g++ --version
 ```
 
-Per executar el programa primerament s'han de compilar els diferents fitxers .cpp i fer un link amb el compilador, per fer tot això cal executar la següent comanda des del directori [principal](/.):
+Per executar el programa primerament s'han de compilar els diferents fitxers .cpp i fer un link amb el compilador, per fer tot això cal executar la següent comanda des del directori [principal](/):
 
 ```
 $ g++ -std=c++11 src/main.cpp src/TextFormatter.cpp -o bin/word-sorter
@@ -47,7 +47,7 @@ Per executar el programa anteriorment compilat s'executarà la següent comanda 
 $ ./bin/word-sorter
 ```
 
-No obstant això, en aquest cas la consola esperarà a l'input de l'usuari. Per consumir l'input des d'un fitxer s'ha de situar aquest fitxer en el directori de [inputs](/test/inputs) i executar la següent comanda des del directori [principal](/.):
+No obstant això, en aquest cas la consola esperarà a l'input de l'usuari. Per consumir l'input des d'un fitxer s'ha de situar aquest fitxer en el directori de [inputs](/test/inputs) i executar la següent comanda des del directori [principal](./):
 
 ```
 $ ./bin/word-sorter < test/inputs/NomInput
