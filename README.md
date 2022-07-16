@@ -33,7 +33,7 @@ $ g++ --version
 Per executar el programa primerament s'han de compilar els diferents fitxers .cpp i fer un link amb el compilador, per fer tot això cal executar la següent comanda des del directori [principal](/.):
 
 ```
-$ g++ -std=c++11 /src/main.cpp /src/TextFormatter.cpp -o /bin/word-sorter
+$ g++ -std=c++11 src/main.cpp src/TextFormatter.cpp -o bin/word-sorter
 ```
 
 Des d'aquest moment hi haurà un executable anomenat **word-sorter** en el directori [bin](/bin)
@@ -50,7 +50,7 @@ $ ./bin/word-sorter
 No obstant això, en aquest cas la consola esperarà a l'input de l'usuari. Per consumir l'input des d'un fitxer s'ha de situar aquest fitxer en el directori de [inputs](/test/inputs) i executar la següent comanda des del directori [principal](/.):
 
 ```
-$ ./bin/word-sorter < /test/inputs/NomInput
+$ ./bin/word-sorter < test/inputs/NomInput
 ```
 
 On **NomInput** és el nom del fitxer que representa l'entrada de l'usuari.
@@ -58,7 +58,7 @@ On **NomInput** és el nom del fitxer que representa l'entrada de l'usuari.
 En cas de voler imprimir l'output en un altre fitxer i que aquest no sigui imprès per consola s'ha d'executar la següent comanda:
 
 ```
-$ ./bin/word-sorter < /test/inputs/NomInput > /test/outputs/NomOutput
+$ ./bin/word-sorter < test/inputs/NomInput > test/outputs/NomOutput
 ```
 
 En aquest cas es generarà un fitxer (i un directori en cas de no existir) amb el nom **NomOutput** en el directori de [outputs](/test/outputs) amb el resultat de l'execució.
@@ -69,7 +69,7 @@ En aquest cas es generarà un fitxer (i un directori en cas de no existir) amb e
 Per tal de comparar la sortida del programa amb la solució correcta s'ha de crear un fitxer amb la solució en el directori de [solucions](/test/solutions) i executar la següent comanda adaptant el nom de la solució i de l'output:
 
 ```
-$ diff /test/outputs/NomOutput /test/solutions/NomSolution
+$ diff test/outputs/NomOutput test/solutions/NomSolution
 ```
 
 L'anterior comanda imprimirà per consola les diferències que hi ha entre els dos fitxers, en cas de ser idèntics no imprimirà res.
