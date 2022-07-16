@@ -1,1 +1,2 @@
-En aquest directori se situaran els fitxers de solucions
+# Executable
+En aquest directori se situaran el programa llest per a l'execució.
