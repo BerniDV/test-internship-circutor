@@ -4,7 +4,7 @@
 
 El programa funciona suposant que:
 
-- No hi ha més signes de puntuació que les comandes a l'enunciat.
+- No hi ha més signes de puntuació que els mostrats en l'enunciat.
 - Tots els caràcters a excepció dels signes de puntuació poden ser representats amb una lletra minúscula.
 - No hi ha cap salt de línia al final de l'output.
 - Els signes de puntuació són gramaticalment correctes i van seguits d'un espai.
