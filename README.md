@@ -47,7 +47,8 @@ Per executar el programa anteriorment compilat s'executarà la següent comanda 
 $ ./bin/word-sorter
 ```
 
-No obstant això, en aquest cas la consola esperarà a l'input de l'usuari i serà necessari pressionar `Ctrl + D` quan s'hagi acabat d'escriure l'entrada. Per consumir l'input des d'un fitxer s'ha de situar aquest fitxer en el directori de [inputs](/test/inputs) i executar la següent comanda des del directori principal:
+No obstant això, en aquest cas la consola esperarà a l'input de l'usuari i serà necessari pressionar `Ctrl + D` quan s'hagi acabat d'escriure l'entrada.
+Per consumir l'input des d'un fitxer s'ha de situar aquest fitxer en el directori de [inputs](/test/inputs) i executar la següent comanda des del directori principal:
 
 ```
 $ ./bin/word-sorter < test/inputs/NomInput
