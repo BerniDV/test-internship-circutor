@@ -1,6 +1,6 @@
 # test-internship-circutor
 
-##Precondicions
+## Precondicions
 
 El programa funciona suposant que:
 
